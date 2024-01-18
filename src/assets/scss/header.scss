@@ -3,6 +3,17 @@
 
 
 .nav-bar{
-    @include space-between
-   
+    @include space-between;
+    section{
+        > ul{
+            display: flex;
+            list-style: none;
+            > li{
+                padding: 20px;
+                > a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
