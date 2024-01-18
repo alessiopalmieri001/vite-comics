@@ -21,11 +21,11 @@
 </script>
 
 <template>
-    <div class="container">
+    
         <MyAppHeader />
         <MyAppMain />
         <MyAppFooter />
-    </div>
+    
 </template>
 
 <style lang="scss" scoped>

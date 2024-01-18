@@ -5,4 +5,16 @@
 .container{
     @include myContainer
 }
+.my-main{
+    background-color: $primary-color;
+    
+    > .container{
+        
+        > h1{
+            color: $secondary-color;
+            padding: 40px;
+        }
+    }
+    
+}
 

@@ -56,7 +56,8 @@
 
 <template>
     <header>
-        <div class="nav-bar">
+        <div class="container">
+            <div class="nav-bar">
             <section>
                 <img src="../../public/img/dc-logo.png" alt="logodc">
             </section>
@@ -70,6 +71,8 @@
                 </ul>
             </section>
         </div>
+        </div>
+        
     </header>
 </template>
 
