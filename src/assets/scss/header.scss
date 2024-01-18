@@ -2,7 +2,7 @@
 @use "partials/variables.scss" as *;
 
 
-.container{
-    @include myContainer
+.nav-bar{
+    @include space-between
+   
 }
-

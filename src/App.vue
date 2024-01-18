@@ -21,15 +21,14 @@
 </script>
 
 <template>
-    <h1>
-        Mia app
-    </h1>
-    <MyAppHeader />
-    <MyAppMain />
-    <MyAppFooter />
+    <div class="container">
+        <MyAppHeader />
+        <MyAppMain />
+        <MyAppFooter />
+    </div>
 </template>
 
 <style lang="scss" scoped>
 @use "assets/scss/main.scss" as *;
-@import "assets/scss/partials/reset.scss"
+@import "assets/scss/partials/reset.scss";
 </style>
