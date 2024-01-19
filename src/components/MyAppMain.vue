@@ -36,6 +36,13 @@
 <template>
     <main>
         <section class="my-main">
+            <div class="jumbotron">
+                <div class="container">
+                    <button class="generalButton">
+                        CURRENT SERIES
+                    </button>
+                </div>
+            </div>
             <div class="container">
                 <p>
                     Content

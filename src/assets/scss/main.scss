@@ -8,6 +8,21 @@
 .my-main{
     background-color: $primary-color;
     
+    .jumbotron{
+        background-image: url('../../../public/img/jumbotron.jpg');
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        
+
+        .generalButton{
+            @include myButton;
+            position: absolute;
+            bottom: -20px;
+            
+        }
+    }
     > .container{
         
         > p{
@@ -17,6 +32,7 @@
     }
     
 }
+
 
 .my-main-2{
     background-color: $terziary-color;
