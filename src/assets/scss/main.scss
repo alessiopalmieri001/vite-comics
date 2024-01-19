@@ -24,10 +24,22 @@
         }
     }
     > .container{
-        
-        > p{
-            color: $secondary-color;
-            padding: 40px;
+        height: 600px;
+        > .seriesContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            > .button-main{
+                @include myButton;
+                margin-top: 70px;
+            }
         }
     }
     
@@ -55,5 +67,6 @@
 
             
         }
+        
     }
 }
