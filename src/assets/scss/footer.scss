@@ -50,8 +50,37 @@
 .bg-footer-bottom{
     background-color: $bg-footer-bottom;
     height: 200px;
-    >  .container{
-
-
+    
+    .container{
+        background-color: #303030;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        
+        
+        a{
+            text-decoration: none;
+            padding: 15px 30px;
+            border: 1px solid blue;
+            font-weight: bold;
+            color: white;
+        }
+        .blue{
+            color: blue;
+            font-weight: bold;
+            display: flex;
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    height: 20px;
+                    margin: 0 5px;
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+        }
     }
 }

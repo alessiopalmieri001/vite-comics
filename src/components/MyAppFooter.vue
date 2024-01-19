@@ -175,13 +175,48 @@
                     
                 </div>
                 <div class="col bg-dc-comics">
-                    
+
                 </div>
             </div>
         </section>
         <section class="bg-footer-bottom">
             <div class="container">
-
+                
+                        <div>
+                            <a href="#">
+                                SIGN UP NOW
+                            </a>
+                        </div>
+                        <div class="blue">
+                            
+                            <h4>
+                                FOLLOW US
+                            </h4>
+                            <ul>
+                                <li>
+                                    <img src="/img/footer-facebook.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="/img/footer-periscope.png" alt="">
+                
+                                </li>
+                                <li>
+                                    <img src="/img/footer-pinterest.png" alt="">
+                
+                                </li>
+                                <li>
+                                    <img src="/img/footer-twitter.png" alt="">
+                
+                                </li>
+                                <li>
+                                    <img src="/img/footer-youtube.png" alt="">
+                
+                                </li>
+                            </ul>
+                
+                        </div>
+                    
+                
             </div>
         </section>
     </footer>
