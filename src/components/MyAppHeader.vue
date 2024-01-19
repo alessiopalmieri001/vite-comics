@@ -63,7 +63,7 @@
             </section>
             <section>
                 <ul>
-                    <li v-for="index in navBar">
+                    <li v-for="index in navBar" >
                         <a href="index.href">
                             {{ index.link }}
                         </a>
